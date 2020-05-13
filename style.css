@@ -1,0 +1,53 @@
+/* table */
+table {
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+table, th, td {
+		border: 1px solid black;
+}
+th {
+	background-color: #00b300; 
+}
+
+/* form */
+form {
+	display: flex;
+	width: 280px;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10px;
+	background: #D3D3D3;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+label {
+	display: flex;
+	justify-content: space-between;
+	width: 250px;
+	margin-top: 10px;
+}
+h3 {
+	margin: 0;
+}
+.submit {
+	width: 70px;
+	height: 30px;
+	margin-top: 10px;
+	background: #87CEFA;
+	border-radius: 10px;
+	border: 0;
+}
+.submit:hover {
+	filter: brightness(90%);
+	cursor: pointer;
+}
+hr {
+	width: 100%;
+}
+h4 {
+	margin: 0;
+}
+.selected {
+	background-color: #ffb6c1;
+}
